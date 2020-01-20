@@ -1,0 +1,19 @@
+aside {
+    width: 320px;
+    padding: 30px 20px;
+    background: #FFF;
+    border-radius: 2px;
+    box-shadow: 0 0 14px 0 rgba(0,0,0,0.02);
+}
+
+aside strong {
+    display: block;
+    color: #333;
+    font-size: 20px;
+    text-align: center;
+}
+
+aside form {
+    margin-top: 30px;
+}
+

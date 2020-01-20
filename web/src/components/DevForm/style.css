@@ -1,0 +1,47 @@
+form .input-block + .input-block {
+    margin-top: 20px;
+}
+
+form .input-group {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+form .input-group .input-block {
+    margin-top: 0;
+}
+form .input-block label {
+    display: block;
+    color: #ACACAC;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+form .input-block input {
+    width: 100%;
+    height: 32px;
+    border: 0;
+    border-bottom: 1px solid #eee;
+    color: #666;
+    font-size: 14px;
+}
+
+form button[type=submit] {
+    width: 100%;
+    padding: 15px 20px;
+    margin-top: 30px;
+    background: #7d40e7;
+    border: 0;
+    border-radius: 2px;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.5s;
+}
+
+form button[type=submit]:hover {
+    background: #6931ca;
+}
