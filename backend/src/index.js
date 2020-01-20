@@ -1,5 +1,6 @@
 const express = require('express');
 const moogoose = require('mongoose');
+const cors = require('cors');
 const routes = require('./routes');
 
 moogoose.connect('mongodb+srv://barreto:barreto@cluster-g4buo.mongodb.net/week10?retryWrites=true&w=majority' , {
@@ -8,6 +9,8 @@ moogoose.connect('mongodb+srv://barreto:barreto@cluster-g4buo.mongodb.net/week10
 })
 
 const app = express();
+
+app.use(cors());
 app.use(express.json());
 app.use(routes);
 
